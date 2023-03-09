@@ -1,14 +1,14 @@
 /** @format */
 
 import React from "react";
-import CharacterGallery from "./Components/CharacterGallery";
+import CharacterGallery from "./components/CharacterGallery";
 import "./App.css";
 
 const App = () => {
   return (
-    <div data-test="component-app">
+    <div data-test="app-container">
       <h1 className="site-title" data-test="site-title">
-        The Lord of the Rings
+        A Song of Fire and Ice
       </h1>
       <CharacterGallery />
     </div>
