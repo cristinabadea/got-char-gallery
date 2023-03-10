@@ -2,7 +2,7 @@
 
 import React from "react";
 import characterData from "../data/characterData.json";
-import Character from "./CharacterX";
+import Character from "./Character";
 
 const CharacterGallery = () => {
   const characterList = characterData.map((character) => (
