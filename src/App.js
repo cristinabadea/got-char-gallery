@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import CharacterGallery from "./Components/CharacterGallery";
+import CharacterGallery from "./components/CharacterGallery";
 import "./App.css";
 
 const App = () => {
