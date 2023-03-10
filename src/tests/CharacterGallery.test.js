@@ -1,14 +1,16 @@
-import CharacterGallery from '../components/CharacterGallery'
-import { shallow } from 'enzyme'
+/** @format */
 
-const setup = () => shallow(<CharacterGallery />)
+import CharacterGallery from "../components/CharacterGallery";
+import { shallow } from "enzyme";
 
-const findByTestAttr = (wrapper, val) => wrapper.find(`[data-test='${val}']`)
+const setup = () => shallow(<CharacterGallery />);
 
-it('CharacterGallery Component Renders Without Error', () => {
-    const wrapper = setup()
+const findByTestAttr = (wrapper, val) => wrapper.find(`[data-test='${val}']`);
 
-    const charComponent = findByTestAttr(wrapper, "component-char-gallery")
+it("CharacterGallery Component Renders Without Error", () => {
+  const wrapper = setup();
 
-    expect(charComponent.length).toBe(1)
-})
+  const charComponent = findByTestAttr(wrapper, "component-char-gallery");
+
+  expect(charComponent.length).toBe(1);
+});

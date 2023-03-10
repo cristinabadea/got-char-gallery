@@ -1,6 +1,6 @@
 /** @format */
 
-import Character from "../Components/CharacterX";
+import Character from "../components/CharacterX";
 import { shallow } from "enzyme";
 
 const setup = (props) => shallow(<Character {...props} />);
